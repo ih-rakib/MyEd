@@ -1,5 +1,5 @@
-import { apiSlice } from "./apiSlice.js";
 import { CONTACT_URL } from "../constants.js";
+import { apiSlice } from "./apiSlice.js";
 
 export const contactSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
